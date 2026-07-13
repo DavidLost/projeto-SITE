@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+:root {
+    --Fundo-principal:	#080F17;
+    
+    --Fundo-secundário:	#0C141D;
+
+    --Cards: #111A25
+
+    --Header/Navbar: #0A111A;
+
+    --Bordas: #202B38
+
+    --Azul-principal (botões): #1F6BFF;
+
+    --Azul-hover: #3C84FF;
+
+    --Azul-escuro-do-banner: #0D2C77;
+
+    --Texto-principal: #F3F5F8;
+
+    --Texto-secundário: #A7B2C3;
+
+    --Texto-desabilitado: #697689;
+
+    --Verde-estoque-status: #3CCB6B;
+
+    --Amarelo-avaliações: #FFB52E;
+
+    --Roxo-do-rodapé: #4524C8
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #080F17, #000000);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    background-color: #080F17;
+    min-width: 268px;
+    height: 680px;
+}
+
+#header_login {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+#header_login > h1 {
+    color:  #F3F5F8;
+    margin: 40px 0px;
+    font-size: 2em;
+}
+
+#header_login h2 {
+    color: #F3F5F8;
+    margin: 10px 0px;
+}
+
+#header_login p {
+    color: rgba(255, 255, 255, 0.582);
+    margin: 10px 0px;
+}
+
+#form_login {
+    width: 100%;
+    height: 400px;
+}
+
+.email_login {
+    padding: 20px 20px;
+}
+
+.email_login label {
+    display: block;
+    text-align: center;
+    color: lightgray;
+   margin-bottom: -15px;
+    
+}
+
+.email_login input {
+    color: white;
+    background-color: rgba(2, 23, 94, 0.658);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border: 1px solid #202B38;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+.email_login input[placeholder] {
+    text-align: center;
+}
+
+.password_login {
+    padding: 20px 20px;
+}
+
+.password_login label {
+    display: block;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: -15px;
+}
+
+.password_login input {
+    color: white;
+    background-color: rgba(2, 23, 94, 0.658);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border: 1px solid #202B38;
+    border-radius: 5px;
+    outline: none;
+}
+
+.password_login input[placeholder] {
+    text-align: center;
+}
+
+#forgot_password {
+    text-align: right;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    
+}
+
+#forgot_password a {
+    color: #1F6BFF;
+    text-decoration: none;
+}
+
+#forgot_password a:hover {
+    text-decoration: underline;
+}
+
+#button {
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px 20px;
+}
+
+#button button {
+    background-color: #1F6BFF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+
+#button button:hover {
+    background-color: #3C84FF;
+}
+
+#no_signup {
+    text-align: center;
+    padding: 20px;
+}
+
+#no_signup p {
+    color: #697689;
+}
+
+#no_signup a {
+    color: #1F6BFF;
+    text-decoration: none;
+}
+
+#no_signup a:hover {
+    text-decoration: underline;
+}

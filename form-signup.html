@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore signup</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+<body>
+    <main>
+        <div id="header_signup">
+            <h1>Crie sua conta!</h1>
+            
+        </div>
+
+        <section>
+            <div id="form_signup">
+                <form action="signup.php" method="post">
+
+                    <div id="name_signup">
+                        <label for="inome">Nome completo</label> <br>
+                        <input type="text" name="nome" id="inome" required autocomplete="text" maxlength="50" placeholder="Seu nome completo">
+                    </div>
+
+                    <div class="email_login">
+                        <label for="iemail">E-mail</label> <br>
+                        <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="seu@email.com">
+                    </div>
+                    
+                    <div class="password_login">
+                        <label for="ipassword">Senha</label> <br>
+                        <input type="password" name="password" id="ipassword" required autocomplete="new-password" minlength="8" maxlegth="20" placeholder="Crie uma senha">
+                    </div>
+
+                    <button type="submit">Cadastrar</button>
+
+                    <p>Já tem uma conta? <a href="form-login.html">Entrar</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

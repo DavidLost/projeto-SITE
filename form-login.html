@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    
+</head>
+<body>
+    <main>
+        <section>
+            <div id="header_login">
+                <h1>TechStore</h1>
+                <h2>Bem-vindo de volta!</h2>
+                
+
+            </div>
+
+            <div id="form_login">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="email_login">
+                        <label for="iemail">E-mail</label> <br>
+                        <input type="email" name="email" id="iemail" required autocomplete="email" maxlength="30" placeholder=" Seu e@mail.com">
+                    </div>
+
+                    <div class="password_login">
+                        <label for="ipassword">Senha</label> <br>
+                        <input type="password" name="password" id="ipassword" required autocomplete="current-password" minlength="8" maxlegth="20" placeholder=" Digite sua senha">
+                    </div>
+
+                    <div id="button">
+                        <button type="submit">Entrar</button>
+                    </div>
+
+                    <div id="forgot_password">
+                        <p>
+                            <a href="#" target="_blank">Esqueceu sua senha?</a>
+                        </p>
+                    </div>
+
+                    <div id="no_signup">
+                        <p>Ainda não tem uma conta? <a href="form-signup.html" target="_blank">Cadastre-se</a></p>
+                    </div>
+
+                </form>
+            </div>
+
+            
+            
+        </section>
+    </main>
+</body>
+</html>
