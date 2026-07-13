@@ -5,6 +5,10 @@
         width: 600px;
     }
 
+    #form_signup {
+        width: 600px;
+    }
+
     #button button {
         width: 100%;
         
@@ -13,6 +17,10 @@
 
 @media screen and (min-width: 992px) {
     #form_login {
+        width: 800px;
+    }
+
+    #form_signup {
         width: 800px;
     }
 }
